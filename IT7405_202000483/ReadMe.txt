@@ -18,7 +18,7 @@ python manage.py runserver
 
 git hub
 
-git clone https://github.com/3looy-hubs/Django-project.git
+git clone https://github.com/3looy-hubs/Django.git
 
 additional packages to install 
 django_cors_headers-3.13.0.dist-info
