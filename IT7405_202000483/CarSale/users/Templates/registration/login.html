@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<div class="container py-5">
+    <form method="post">
+        <h2>LOGIN</h2>
+        {% csrf_token %}
+        {{ form|crispy }}
+        <input  class="btn btn-primary" type="submit" value="Login">
+    </form>
+    <a  href="{% url 'carview:homePage' %}">Back to dashboard</a> 
+</div>
+{% endblock %}
+					
